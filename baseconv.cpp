@@ -74,5 +74,5 @@ long long log(long long num,long long base,const long long ans){
     if(num==0)
         return ans;
     else
-		return log(num/base,base,ans+1);   
+	return log(num/base,base,ans+1);   
 }
